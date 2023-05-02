@@ -1,0 +1,29 @@
+.tabBar-container {
+  position: fixed;
+  left: 26px;
+  height: 83px;
+  left: 0%;
+  right: 0%;
+  bottom: -10px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: inset 0px 0.5px 0px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(13.5914px);
+}
+
+.tabBar-nav {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: -15px;
+}
+
+.tabBar-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.tabBar-item {
+  width: 24px;
+  height: 24px;
+}

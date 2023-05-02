@@ -1,0 +1,61 @@
+.flex-container {
+  width: 343px px;
+  height: 954px;
+  margin-top: 120px;
+  margin-left: 16px;
+}
+
+.page-container {
+  position: static;
+  gap: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.page-container > div {
+  margin-bottom: 20px;
+}
+
+.main-img {
+  width: 164px;
+  height: 238px;
+  border-radius: 8px;
+}
+
+.sub-img {
+  width: 32px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+  border-radius: 100px;
+}
+
+.user-nick {
+  width: 32px;
+  height: 14px;
+
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #222222;
+}
+
+.home-user-text {
+  width: 164px;
+  height: 34px;
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #222222;
+}
+
+.home-user-profile {
+  position: relative;
+  display: flex;
+}

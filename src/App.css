@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 375px;
+  height: 812px;
+  left: 113px;
+  top: 446px;
+
+  background: #ffffff;
+}

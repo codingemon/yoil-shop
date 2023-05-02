@@ -1,0 +1,96 @@
+.swiper-container {
+  position: fixed;
+  align-items: flex-start;
+  width: 405px;
+  top: 65px;
+  left: 0%;
+  right: 0%;
+  z-index: 100;
+}
+
+.swiper-hide {
+  opacity: 0;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  left: 5px;
+  width: 56px;
+  height: 40px;
+  margin-left: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.swiper-slide:hover {
+  background-color: #000;
+}
+
+.header-nav-item {
+  width: 23px;
+  height: 16px;
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #222222;
+}
+
+.header-nav-item:hover {
+  color: #fff;
+  width: 24px;
+  height: 16px;
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+/* 상당히 좋지 못한 코드 */
+
+.header-nav-item2 {
+  width: 35px;
+  height: 16px;
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000;
+}
+
+.header-nav-item2:hover {
+  color: #fff;
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.header-nav-item3 {
+  width: 45px;
+  height: 16px;
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000;
+}
+
+.header-nav-item3:hover {
+  color: #fff;
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+}
